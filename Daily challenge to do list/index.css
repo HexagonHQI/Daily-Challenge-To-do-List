@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.listTasks {
+    margin-top: 20px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.task input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.task .delete-btn {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.task .delete-btn:hover {
+    color: #red;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #red;
+}
